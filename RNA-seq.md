@@ -105,7 +105,7 @@ You can also use an alignment quality control tool. **Samtools stats** is the pa
 
 That is a lot of output that gives you! You may need some tools (like R) just to process it. You may do it in your spare time. For now we can cut just keep the first part of the outpuut with this command:
 
-	samtools stats wt_O_1-1.sam | grep ^SN | cut -f 
+	samtools stats wt_O_1-1.sam | grep ^SN 
 
 and see all key stats of that file.
 
