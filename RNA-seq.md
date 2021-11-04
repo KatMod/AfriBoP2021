@@ -146,7 +146,7 @@ That will create a new file **wt_O_1-1S.bam** in which all the reads are sorted 
 Now run again *ls -l* command. Do you see an additional file?
 
 
-### Part 4 (optional) visualisation:
+### Part 4 (optional) data download for visualisation:
 
 
 We can now see how our alignement loks like. IGV is one of the few tools that make it possible. Anything that involves a graphical represnatations of very large files can  be memory intensive so it is better to run it on your local machine. To so this please download from your folder 3 files needed for the visualisation:
